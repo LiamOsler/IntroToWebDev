@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>reveal.js - Barebones</title>
+		<link rel="stylesheet" href="../reveal/reveal.css">
+        <link rel="stylesheet" href="../reveal/theme/black.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">	
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+    <body>
+
+		<div class="reveal">
+			<div class="slides">
+                
+                <!-- Selectors Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2 >ID and Class attributes</h2>
+                        <ul>
+                            <li class="fragment">We have been selecting elements by type (h1, p) in our CSS so far.</li>
+                            <li class="fragment">There are another commonly used ways of selecting elements though.</li>
+                            <li class="fragment">One common way of selecting elements is by <strong>id</strong> and by <strong>class</strong></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Style Tag Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>The <code>&lt;style&gt;</code> tag</h2>
+                        <ul>
+                            <li>There is more than one way of editing the style of a element on the page. An alternative approach we can use is to use selectors inside of a <code>&lt;style&gt;</code> tag in our HTML code.</li>
+                            <li><code>&lt;style&gt; h1{color: red} &lt;style&gt;<br />&lt;h1&gt;Hello World!&lt;/h1&gt;<br />&lt;h1&gt;Hello to you!&lt;/h1&gt;</code>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Styled Link Exercise -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the color of the text in the paragraph tag to blue</p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="XWqGymL" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/XWqGymL">
+                            style tag</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </section>
+
+                
+                <!-- Title Slide -->
+                <section>
+                    <h1>Intro to Web Design and Development</h1>
+                    <h2>Liam Osler</h2>
+                    <h3>2022</h3>
+                </section>
+
+                <!-- Language Overview Slide -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>Languages</h1>
+                    </div>
+                    <div class = "col col-xs-6">
+                        <h2>Language</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                    <div class = "col col-xs-6">
+                        <h2>Concept</h2>
+                        <ul>
+                            <li>Markup</li>
+                            <li>Styling</li>
+                            <li>Programming and scripting</li>
+                        </ul>
+                    </div>
+                    <div class = "col col-xs-12">
+                        <p>These languages have changed and evolved over the years</p>
+                    </div>
+                </section>
+
+                <!-- HTML5 Brief -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>HTML5</h1>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <h2>HyperText Markup Language</h2>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" height="150px" width="150px">
+                    </div>
+                    <div class = "col col-sm-12">
+                        <p>The standard language for marking up documents displayed in a web browser</p>
+                    </div>
+                </section>
+
+                <!-- CSS3 Brief -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>CSS3</h1>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <h2>Cascading Style Sheets</h2>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="150px" width="150px">
+                    </div>
+                    <div class = "col col-sm-12">
+                        <p>The standard language for describing the presentation of documents displayed in a web browser</p>
+                    </div>
+                </section>
+
+                <!-- JS Brief -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>JS ES6</h1>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <h2>ECMAScript 2015 (ES6)</h2>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" height="150px" width="150px">
+                    </div>
+                    <div class = "col col-sm-12">
+                        <p>A client-side and server-side programming language. JavaScript has been ubiquitous in web browsers for years and has supplanted other client-side scripting languages.</p>
+                    </div>
+                </section>
+
+                <!-- HTTP Brief -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>HTTP</h1>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <h2>HyperText Transfer Protocol</h2>
+                        <ul>
+                            <li>Notice that website addresses have either <b>http://</b> or <b>https://</b> in front of them in your browser</li>
+                            <li>HTTP is a request-response protocol that allows you to deliver content from a server to a client</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- HTML Section Title -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>HTML</h1>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <h2>HyperText Markup Language</h2>
+                    </div>
+                </section>
+
+                
+                <!-- HTML ELements Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h1>HTML Elements</h1>
+                        <h2>There are over 100 different HTML elements</h2>
+                    </div>
+                </section>
+
+                <!-- HTML Element Examples -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>Commonly used HTML elements</h2>
+                        <h3>Typography:</h3>
+                        <ul>
+                            <li>Headings: <code>h1, h2, h3, h4...</code></li>
+                            <li>Paragraph: <code>p</code></li>
+                            <li>Lists: <code>ul, ol, li</code></li>
+                            <li>Links: <code>a</code></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- HTML Tag Construction -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>HTML Tags</h2>
+                        <h3>Construction:</h3>
+                        <ul>
+                            <li>Opening tag: <code>&lt;h1&gt;</code></li>
+                            <li>Content: <code>Hello World!</code></li>
+                            <li>Closing tag: <code>&lt;/h1&gt;</code></li>
+                            <li><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></li>
+
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- HTML Paragraph tag CodePen Example -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Add your name inside of the <code>&lt;p&gt;paragraph tag&lt;/p&gt;</code></p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PoeLdWL" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/PoeLdWL">
+                            I am a paragraph tag</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </section>
+
+                <!-- HTML header tag CodePen Example -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code> element tags to <code>&lt;h2&gt;</code> and <code>&lt;/h2&gt;</code></p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PoeLdWL" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/PoeLdWL">
+                            I am a paragraph tag</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </section>
+
+                <!-- HTML ul li list tag CodePen Example -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the contents of the list to include your favourite hobbies and add a third item to the list.</p>
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLjwxQM" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/yLjwxQM">
+                            Hello World!</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                          <p><mark>Note:</mark> the <code>&lt;ol&gt;</code> element means "unordered list" the <code>&lt;li&gt;</code> tags are the "list items". Note how they are nested inside of the unordered list tag.</li></p>
+                    </div>
+                </section>
+
+                <!-- References for HTML elements-->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>HTML Elements Reference</h2>
+                        <a href="https://www.w3schools.com/tags/default.asp" target=”_blank”>https://www.w3schools.com/tags/default.asp</a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target=”_blank">https://developer.mozilla.org/en-US/docs/Web/HTML</a>
+                    </div>
+                </section>
+
+                <!-- HTML Tag Attributes -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h1>HTML Attributes</h1>
+                        <ul>
+                            <li>Sometimes we need to include additional information in our tags.</li>
+                            <li>We can include this information by defining the values of attributes.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- HTML Tag Attributes Link Example-->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>HTML Attributes For Links</h2>
+                        <ul>
+                            <li>The text content of a link goes inside of the <code>&lt;a&gt;</code> tag.</li>
+                            <li><code>&lt;a&gt;click this link&lt;/a&gt;</code></li>
+                            <li>If you <a>click this link</a> you will notice it doesn't take you anywhere... We need to define an attribute in the tag for the destination.</code></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- HTML Tag Attributes Link Example Continued -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>The href attribute</h2>
+                        <ul>
+                            <li>Attributes are added to tags like this:</li>
+                            <li><code>&lt;a href = "http://google.com"&gt;click this link&lt;/a&gt;</code></li>
+                            <li>If you <a href = "http://google.com">click this link</a> you will notice it will take you to Google.</code></li>
+                            <li>The name of the attribute goes inside the tag, followed by an equals sign, then the value in quotes.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- HTML Tag Attributes Link exercise -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the value of the href attribute so the link goes to Bing, instead of Google:</p>
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExLMdge" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/ExLMdge">
+                            Hello World!</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </section>
+
+                <!-- Basics of styling -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>The style attribute</h2>
+                        <ul>
+                            <li>HTML doesn't give us much control over the appearance of our document.</li>
+                            <li>In order to style our HTML, we need to use CSS.</li>
+                            <li>One way to do this is to add the <code>style</code> attribute to your HTML element</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Style Attribute -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>The style attribute</h2>
+                        <ul>
+                            <li>A basic header tag:</li>
+                            <li><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></li>
+                            <li>With a style attribute to make the text color red:</li>
+                            <li><code>&lt;h1 style = "color: red"&gt;Hello World!&lt;/h1&gt;</code></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Style Attribute Exercise -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the <code>&lt;h2&gt;</code> element's style attribute so the text is blue instead of red</p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="zYjbmdm" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/zYjbmdm">
+                            style attribute</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </section>
+
+                <!-- Multiple Attributes in a HTML tag-->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>Multiple Attributes</h2>
+                        <ul>
+                            <li>An HTML tag can have many attributes</li>
+                            <li>The attributes can be in any order in the tag</li>
+                            <li><code>&lt;a href = "http://google.com" style = "color: red"&gt;click this link&lt;/a&gt;</code></li>
+                            <li>Or...</li>
+                            <li><code>&lt;a style = "color: red" href = "http://google.com"&gt;click this link&lt;/a&gt;</code></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Styled Link Exercise -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the element's style attribute so the text is orange instead of red</p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="xxjBypB" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/xxjBypB">
+                            Basic Links</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </section>
+
+                <!-- Basic CSS Section -->
+                <section>
+                    <div class = "col col-xs-12">
+                        <h1>CSS</h1>
+                    </div>
+                    <div class = "col col-sm-12">
+                        <h2>Cascading Style Sheets</h2>
+                    </div>
+                </section>
+
+                <!-- CSS syntax Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>CSS Syntax</h2>
+                        Selector, Property, Value.
+                    </div>
+                </section>
+
+                <!-- CSS property values -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>Property : Value</h2>
+                        <ul>
+                            <li>Recall the style we applied to the text in the previous exercises:</li>
+                            <li><code>&lt;h1 style = "color: red"&gt;Hello World!&lt;/h1&gt;</code></li>
+                            <li>In this example, the property of the element we are modifying is its <code>color</code> and we are setting it to <span style = "color: red">red</span></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Multiple property values Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <ul>
+                            <li>We can modify more than one property : value pair by separating them with semicolons:</li>
+                            <li><code>&lt;h1 style = "color: red; background-color: white"&gt;Hello World!&lt;/h1&gt;</code></li>
+                            <li>In this example we have modified the <code>color</code> and <code>background-color</code> so they are <span style = "color: red; background-color: white">red and white</span></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Font-size Exercise -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Keep the existing styles and add <code>font-size: 10px</code> to each element</p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="zYjbmdm" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/zYjbmdm">
+                            style attribute</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </section>
+
+                <!-- Selectors Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>Selectors</h2>
+                        <ul>
+                            <li>We have been modifying the style of a single element by using the <code>style</code> attribute:</li>
+                            <li><code>&lt;h1 style = &quot;color: red&quot;&gt;Hello World!&lt;/h1&gt;<br />&lt;h1 style = &quot;color: red&quot;&gt;Hello to you!&lt;/h1&gt;</code></li>
+                            <li>However, we can also modify the style of multiple elements by using <strong>selectors</strong></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Style Tag Overview -->
+                <section>
+                    <div class = "col-sm-12">
+                        <h2>The <code>&lt;style&gt;</code> tag</h2>
+                        <ul>
+                            <li>There is more than one way of editing the style of a element on the page. An alternative approach we can use is to use selectors inside of a <code>&lt;style&gt;</code> tag in our HTML code.</li>
+                            <li><code>&lt;style&gt; h1{color: red} &lt;style&gt;<br />&lt;h1&gt;Hello World!&lt;/h1&gt;<br />&lt;h1&gt;Hello to you!&lt;/h1&gt;</code>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Styled Link Exercise -->
+                <section>
+                    <div class = "col-xs-12">
+                        <h2>Exercise</h2>
+                        <p>Change the color of the text in the paragraph tag to blue</p>    
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="XWqGymL" data-editable="true" data-user="liamosler" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                            <span>See the Pen <a href="https://codepen.io/liamosler/pen/XWqGymL">
+                            style tag</a> by Liam Osler (<a href="https://codepen.io/liamosler">@liamosler</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </section>
+
+
+
+			</div>
+		</div>
+
+        
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+		<script src="../reveal/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+
+	</body>
+</html>
