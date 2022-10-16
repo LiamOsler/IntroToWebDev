@@ -34,6 +34,12 @@ img{
     }
 }
 
+ul{
+    margin: 0 !important;
+}
+li{
+}
+
 .cp_embed_wrapper{
     margin-top: .5em;
     margin-bottom: .5em;
