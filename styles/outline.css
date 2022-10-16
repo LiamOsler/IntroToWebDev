@@ -1,0 +1,41 @@
+body{
+    background-color: #191919 !important;
+}
+
+p, li, h3{
+    color: aliceblue;
+    font-size: large !important;
+}
+
+h2, h3, h4{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+h1{
+    margin-bottom: 0 !important;
+}
+
+a{
+    color: #42fa9e;
+}
+
+.outline-header{
+    text-align: center;
+}
+
+.outline-header h1{
+    font-size: 5em;
+    margin: 0;
+}
+
+.reveal{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 2em 1em;
+    border: 1px solid #42fa9e;
+}
+
+

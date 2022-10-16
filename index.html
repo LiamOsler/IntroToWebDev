@@ -1,45 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/index.css">
-
+    <title>Front-end web design</title>
 </head>
-<body>
-    <header>
-        <h1>Web Design and Development</h1>
-        <h2>Liam Osler</h2>
-    </header>
-      
-      <section>
-        <nav>
-            <ul>
-                <li><a href="classes/intro.html">Intro Lesson (HTML and CSS Basics)</a></li>
-                <li>HTML</li>
-                <ul>
-                    <li>Commonly used HTML Elements</li>
-                </ul>
-                <li>Commonly used CSS attributes</li>
-            </ul>
-        </nav>
-        
-        <article>
-            <h1>Intro Lesson:</h1>
-            <p>An overview of the basics principles of HTML and CSS. Introduces these languages through small interactive examples.</p>
-            <ul>
-                <li><a href="classes/intro.html">Presentation</a>
-                </li>
-                <li><a href="classes/intro_outline.html">Outline</a>
-                </li>
-            </ul>   
 
-        </article>
-      </section>
-    
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 id = "title">Front-End Web Design</h1>
+    </header>
+
+    <section>
+      <nav>
+        <div class = "nav-content">
+            <ul>
+                <li><a href="#intro">Intro Lesson</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JS</a></li>
+                <li><a href="#js">SVG</a></li>
+              </ul>
+              <br>
+              <p class = "highlight">Questions? Comments? Contact: <a href = "mailto:osler.liam@gmail.com">osler.liam@gmail.com</a></p>
+        </div>
+
+      </nav>
+
+      <article>
+        <h1 id="intro">Lessons</h1>
+        <h2>Introduction</h2>
+
+        <h3 id="intro-history">History of the World Wide Web:</h3>
+        <p>A brief history of the world wide web. Introduces the basic principles of the web and how it works.</p>
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="intro-coding">Introduction to coding for the web:</h3>
+        <p>An overview of the basics principles of HTML and CSS. Introduces the some basic concepts of these languages through small interactive examples on CodePen.
+        </p>
+        <div class="button-wrapper">
+          <a href="classes/intro_presentation.html" class="button">Presentation</a>
+          <a href="classes/intro_outline.html" class="button">Outline</a>
+          <a href="classes/intro_assignment.html" class="button">Assignment</a>
+        </div>
+
+        <h3 id="intro-tools">Tools for developing websites:</h3>
+        <p>A look at some useful tools for developing websites, like how to use a code editor such as VSCode to create a basic HTML file. Shows the use of a browser to view the HTML file. Introduces the code inspector.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <span id = "html"></span>
+        <h2>HTML</h2>
+
+        <h3 id="html-type">Typographic HTML elements:</h3>
+        <p>A deeper dive on the typographic HTML elements. Examples of tags discussed include p, h1 (and other heading levels), ul, ol, i, b, strong, u, s, br, hr and span.
+        </p>
+        <div class="button-wrapper">
+            <i>Coming Soon</i>
+          </div>
+
+        <h3 id="html-semantic">Semantic HTML elements:</h3>
+        <p>A brief demonstration of semantic HTML elements. Examples of tags discussed include header, content, article, aside and footer.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="html-common">Common HTML elements and structure:</h3>
+        <p>An overview of the most commonly used HTML elements including divs. Introduce the tree like nature of HTML and how it is used to structure a webpage. Demonstates HTML comments.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+        
+        <h3 id="basic-html">HTML files:</h3>
+        <p>How to set up a basic HTML file and link a CSS file to it. Demonstrate the basic differences between CodePen and working locally.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <span id = "css"></span>
+        <h2>CSS</h2>
+
+        <h3 id="basic-css">CSS styling basics:</h3>
+        <p>An overview of the basics of CSS styling.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="css-styles">Commonly used CSS typographic styles:</h3>
+        <p>A look at the most commonly used CSS styles. Discusses styles including font-size, font-family, font-weight, font-style, text-align, text-decoration, line-height, letter-spacing, word-spacing, text-transform, text-indent, text-shadow, color and background-color.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="css-box">The box model:</h3>
+        <p>Introduces the CSS box model. Discusses the use of padding, margin, border and box-sizing.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="css-box">Images with HTML and CSS:</h3>
+        <p>How to show a picture on a website using HTML and CSS.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="css-combi">CSS combinators</h3>
+        <p>Introduces the CSS combinatorics. Discusses the use of the descendant selector, the adjacent sibling selector and the general sibling selector.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="css-flex">CSS flexbox:</h3>
+        <p>Introduces the CSS flexbox. Discusses the use of flexbox to create layouts. Demonstrates the use of justify-content, align-items, align-content, order, flex-direction, flex-wrap, flex-grow, flex-shrink and flex-basis.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <span id = "js"></span>
+        <h2>JS</h2>
+
+        <span id = "js"></span>
+        <h3 id="js-intro">Introduction to Javascript:</h3>
+        <p>Introduces the basics of Javascript. Introduces the use of variables, functions, conditionals and loops. Briefly discusses the history of JavaScript.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="js-vars">Javascript variable declarations (var, let and const):</h3>
+        <p>Introduces Javascript variable declarations, discussing the differences between var, let and const. Discusses mutability and immutability.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="js-vars">DOM Manipulation with JavaScript:</h3>
+        <p>Introduces basics of DOM manipulation with JavaScript. Demonstrates the use of the document object to select elements and change their properties.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+
+        <h3 id="js-vars">Javascript loops:</h3>
+        <p>Introduces basic loops in Javascript. Examples of loops include for, while and do while loops.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="js-vars">Javascript functions:</h3>
+        <p>Introduces basic function in JavaScript. Demonstrates arrow notation.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <h3 id="js-vars">Javascript objects:</h3>
+        <p>Introduces basics of object orientation in JavaScript. Demonstrates arrow notation.
+        </p>
+        <div class="button-wrapper">
+          <i>Coming Soon</i>
+        </div>
+
+        <span id = "svg"></span>
+        <h2>SVG</h2>
+
+      </article>
+    </section>
+    <footer>
+        <p>© 2022 Liam Osler</p>
+    </footer>
+  </div>
 </body>
+
 </html>
-    

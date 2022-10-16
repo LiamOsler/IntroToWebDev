@@ -1,44 +1,111 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #191919;
-
-  }
+}
 
 h1, h2, h3, h4{
     text-transform: uppercase;
 }
 
+h3{
+    color: #42AFFA;
+}
+  
+article h2, h3, h4{
+    text-transform: none;
+    margin-bottom: 0 !important;
+    margin-top: 0;
+}
+
+article h1{
+    font-size: xx-large;
+    margin: 0;
+
+}
+  
 p, a, li{
     font-size: large;
 }
-  
-/* Style the header */
-header {
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
+
+a{
+    color:#FF7CC9;
 }
   
+.button{
+    color: #191919;
+    padding: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+    margin-bottom: .25em;
+    border-radius: .25em;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #42fa9e;
+}
+
+.button-inactive{
+    background-color: #191919;
+    padding: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+    margin-bottom: .25em;
+    border-radius: .25em;
+    display: inline-block;
+    text-decoration: none;
+    color: #42fa9e;
+    opacity: .5;
+}
+
+.button-wrapper{
+    margin-bottom: .5em
+}
+  
+.wrapper{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+/* Style the header */
+header {
+    text-align: center;
+}
+    
 /* Container for flexboxes */
 section {
     display: -webkit-flex;
     display: flex;
 }
-  
+    
 /* Style the navigation menu */
 nav {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background: #ccc;
     padding: 1em;
+    text-align: end;
 }
-  
+
+.nav-content{
+    position: sticky;
+    top: 1em;
+}
+
+.highlight{
+    color: #42AFFA;
+}
+
+nav a{
+    color: #FF7CC9;
+    font-weight: bolder;
+}
+
+nav p{
+    color: white;
+}
+
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
+    padding-left: 0 !important;
 }
 nav li{
     margin-bottom: .5em;
@@ -50,5 +117,23 @@ article {
     -ms-flex: 3;
     flex: 3;
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 1em 2em;
 }
+
+footer{
+    margin-top: 1em;
+    color: white;
+    text-align: end;
+    padding-right: .5em;
+}
+
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    #title{
+        text-align: end;
+        margin-right: .5em;
+    }
+  }
