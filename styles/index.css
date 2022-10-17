@@ -20,7 +20,7 @@ article h2, h3, h4{
 article h1{
     font-size: xx-large;
     margin: 0;
-
+    margin-bottom: .5em;
 }
   
 p, a, li{
@@ -90,9 +90,10 @@ nav {
 .nav-content{
     position: sticky;
     top: 1em;
-    border: solid #42fa9e;
+    border: solid #42AFFA;
     border-width: 0 .2em .2em 0;
     padding-right: 1em;
+    padding-left: 1em;
     padding-bottom: 1em;
 }
 
@@ -154,8 +155,10 @@ footer{
       -webkit-flex-direction: column;
       flex-direction: column;
     }
-    #title{
-        text-align: end;
-        margin-right: .5em;
+    .nav-content{
+        margin-right: 2em;
+    }
+    header{
+        font-size: large;
     }
   }
