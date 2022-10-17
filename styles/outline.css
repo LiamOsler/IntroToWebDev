@@ -20,7 +20,7 @@ a{
 }
 
 .outline-header{
-    text-align: center;
+    text-align: end;
 }
 
 .outline-header h1{
@@ -36,6 +36,7 @@ a{
 section{
     padding: 2em 1em;
     border: 1px solid #42fa9e;
+    margin-bottom: 1em;
 }
 
 

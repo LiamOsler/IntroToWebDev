@@ -66,7 +66,11 @@ a{
 }
 /* Style the header */
 header {
-    text-align: center;
+    text-align: end;
+    font-size: xx-large;
+    border: solid #FA7AC6;
+    border-width: .2em 0 0 .2em;
+    padding-right: 1em;
 }
     
 /* Container for flexboxes */
@@ -80,14 +84,27 @@ nav {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: 1em;
     text-align: end;
 }
 
 .nav-content{
     position: sticky;
     top: 1em;
+    border: solid #42fa9e;
+    border-width: 0 .2em .2em 0;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
+
+figure{
+    border: solid #42fa9e;
+    border-width: 0 .2em .2em 0;
+    margin: 0 0 2em 0;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+
 
 .highlight{
     color: #42AFFA;
@@ -98,14 +115,19 @@ nav a{
     font-weight: bolder;
 }
 
-nav p{
+p{
     color: white;
+}
+
+i{
+    opacity: .5;
 }
 
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
     padding-left: 0 !important;
+    
 }
 nav li{
     margin-bottom: .5em;
@@ -116,7 +138,7 @@ article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     padding: 1em 2em;
 }
 
